@@ -13,7 +13,7 @@ import utilities.CucumberReporting;
 		
 		features = "classpath:features",
 		glue = "stepDefinitions",
-		tags="@Regression",
+		tags="@Laptop2",
 		dryRun =false,
 		monochrome = true,
 		//strict =true,
