@@ -26,7 +26,7 @@ public class LoginPageObject extends Base {
 	// PageFactory provide @FindBy to find UI Elements just like
 	// driver.findElement()
 
-	@FindBy(xpath = "//span[text() = 'My Account']")
+	@FindBy(xpath = "//a[@title = 'My Account']")
 	private WebElement myAccount;
 	
 	@FindBy(xpath = "//a[text() = 'Login']")
