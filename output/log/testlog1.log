@@ -717,3 +717,33 @@
 2021-12-12 14:27:40,973 [main] INFO logger_File - User clicked on Shopping Cart button
 2021-12-12 14:27:42,278 [main] INFO logger_File - Validated that cart is empty
 2021-12-12 14:27:42,279 [main] INFO logger_File - User empty Shopping cart message displays PASSED
+2021-12-13 13:10:49,777 [main] INFO logger_File - User verify currency values change Started
+2021-12-13 13:10:57,214 [main] INFO logger_File - Actual Title is matching with expected Title
+2021-12-13 13:10:57,305 [main] INFO logger_File - User successfully clicked on Currency button
+2021-12-13 13:10:58,323 [main] INFO logger_File - User successfully selected Euro as Currency
+2021-12-13 13:10:59,311 [main] INFO logger_File - Valideted that currency is Euro now
+2021-12-13 13:10:59,314 [main] INFO logger_File - User verify currency values change PASSED
+2021-12-13 13:10:59,343 [main] INFO logger_File - User empty Shopping cart message displays Started
+2021-12-13 13:11:05,264 [main] INFO logger_File - Actual Title is matching with expected Title
+2021-12-13 13:11:05,323 [main] INFO logger_File - User clicked on Shopping Cart button
+2021-12-13 13:11:06,428 [main] INFO logger_File - Validated that cart is empty
+2021-12-13 13:11:06,429 [main] INFO logger_File - User empty Shopping cart message displays PASSED
+2021-12-13 13:13:21,866 [main] INFO logger_File - Edit your affiliate information from Cheque payment method to Bank Transfer Started
+2021-12-13 13:13:26,979 [main] INFO logger_File - Actual Title is matching with expected Title
+2021-12-13 13:13:27,028 [main] INFO logger_File - User clicked on MyAccount
+2021-12-13 13:13:27,392 [main] INFO logger_File - User clicked on Login option
+2021-12-13 13:13:27,540 [main] INFO logger_File - User testing1@test.net and password testing
+2021-12-13 13:13:27,931 [main] INFO logger_File - User clicked on Login Button
+2021-12-13 13:13:27,981 [main] INFO logger_File - User logged in to My Account Dashboard
+2021-12-13 13:13:30,063 [main] INFO logger_File - Edit your affiliate information from Cheque payment method to Bank Transfer PASSED
+2021-12-13 13:13:30,094 [main] INFO logger_File - Edit your account Information Started
+2021-12-13 13:13:33,532 [main] INFO logger_File - Actual Title is matching with expected Title
+2021-12-13 13:13:33,585 [main] INFO logger_File - User clicked on MyAccount
+2021-12-13 13:13:33,922 [main] INFO logger_File - User clicked on Login option
+2021-12-13 13:13:34,068 [main] INFO logger_File - User testing1@test.net and password testing
+2021-12-13 13:13:34,512 [main] INFO logger_File - User clicked on Login Button
+2021-12-13 13:13:34,548 [main] INFO logger_File - User logged in to My Account Dashboard
+2021-12-13 13:13:36,815 [main] INFO logger_File - Edit your account Information PASSED
+2021-12-13 13:15:01,323 [main] INFO logger_File - Product Comparison Started
+2021-12-13 13:15:06,887 [main] INFO logger_File - Actual Title is matching with expected Title
+2021-12-13 13:15:11,292 [main] INFO logger_File - Product Comparison PASSED
