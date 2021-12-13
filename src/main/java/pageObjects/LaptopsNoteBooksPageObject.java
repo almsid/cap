@@ -51,10 +51,11 @@ public class LaptopsNoteBooksPageObject extends Base {
 		buttonAddToCart.click();
 	}
 	public boolean validateSuccessMessage(String itemName) {
-		if (successMessage.findElement(By.linkText(itemName)).isDisplayed())
+		if (successMessage.isDisplayed())
 			return true;
 		else 
 			return false;
+		//if (successMessage.findElement(By.linkText(itemName)).isDisplayed())
 	}
 	public boolean validateMacBookAddedToCart(String str) {
 		if (addedToCartMacbook.getText().contains(str))
