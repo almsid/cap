@@ -1,4 +1,3 @@
-@Regression
 Feature: Login to Retail Website 
 #Each feature file starts with Feature keyword and name for feature file
 # Each scenario starts with Scenario keyword and : then name of scenario
