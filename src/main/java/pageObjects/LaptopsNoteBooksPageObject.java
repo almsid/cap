@@ -19,7 +19,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 	private WebElement macbookItem;
 	@FindBy (xpath = "//button[@id='button-cart']")
 	private WebElement buttonAddToCart;
-	@FindBy (xpath = "//div[@class= 'alert alert-success alert-dismissible' and text()=' Success: You have added ']")
+	@FindBy (xpath = "//div[@class= 'alert alert-success alert-dismissible' and contains(text(),'Success: You have added')]")
 	private WebElement successMessage;
 	@FindBy (xpath = "//span[@id='cart-total' and text()=' 1 item(s) - $602.00']")
 	private WebElement addedToCartMacbook;
