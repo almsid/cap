@@ -12,7 +12,7 @@ public class HomePageObject extends Base {
 		PageFactory.initElements(driver, this);
 	}
 	// Currency
-	@FindBy (xpath = "//button/span[text()='Currency']")
+	@FindBy (xpath = "//button[@data-toggle='dropdown']")
 	private WebElement currencyButton;
 	@FindBy(xpath = "//button[@name = 'EUR']")
 	private WebElement currencyEuro;

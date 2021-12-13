@@ -41,7 +41,7 @@ public class LoginPageObject extends Base {
 	@FindBy(xpath = "//input[@value = 'Login']")
 	private WebElement loginButton;
 	
-	@FindBy (xpath = "//h2[text()='My Account']")
+	@FindBy (xpath = "//div[@id='account-account']//*[text()='My Account']")
 	private WebElement myAccountText;
 	
 	

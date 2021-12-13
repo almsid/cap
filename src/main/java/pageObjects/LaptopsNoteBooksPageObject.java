@@ -31,7 +31,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 	private WebElement compareMacBookAir;
 	@FindBy (xpath = "//button[@onclick= \"compare.add('43');\"]")
 	private WebElement compareMacBook;
-	@FindBy (xpath = "//a[text()='product comparison']")
+	@FindBy (xpath = "//div[@id='product-compare']//*[text()='Product Comparison']")
 	private WebElement productComparisonLink;
 	@FindBy (xpath = "//h1[text()='Product Comparison']")
 	private WebElement prodcutComparisonPageHeading;
