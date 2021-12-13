@@ -1,4 +1,4 @@
-@Home
+@Home @Regression
 Feature: Home Page
 
 Background:
