@@ -17,7 +17,7 @@ And User click on Continue button
 Then User should see a success message 
 Examples:
 |company|website|taxID|paymentMethod|chequeName|
-|My Company|www.company.com|123456789|cheque|Some Body|
+|My Company|www.company.com45|123456789|bank|Some Body|
 
 @Retail @Regression
 Scenario Outline: Edit your affiliate information from Cheque payment method to Bank Transfer

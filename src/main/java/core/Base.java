@@ -49,8 +49,8 @@ public class Base {
 		driver.get(getUrl());
 	}
 	public static void tearDown() {
-		//driver.close();
-		//driver.quit();
+		driver.close();
+		driver.quit();
 	}
 	public static void selectBrowser() {
 		String browserName = getBrowser();

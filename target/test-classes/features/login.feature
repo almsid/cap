@@ -11,26 +11,26 @@ Feature: Login to Retail Website
 # we can write same step N times as long as they are the same( case sensitive, and no extra space)
 # but in step Definition we should have only one step associated with this step. 
 
-@login
+@login 
 Scenario: Retail website Login test 
-    Given User is on Retail website
-    When User click on MyAccount
-    And User click on Login
-    And User enter username 'eagles@tekschool.us' and password 'eagles'
-    And User click on Login button
-    Then User should be logged in to MyAccount dashboard
-    
-@endtoendTesting  
+	Given User is on Retail website 
+	When User click on MyAccount 
+	And User click on Login 
+	And User enter username 'eagles@tekschool.us' and password 'eagles' 
+	And User click on Login button 
+	Then User should be logged in to MyAccount dashboard 
+	
+@endtoendTesting 
 Scenario Outline: Retail website Login test with multiple accounts 
-    Given user is on Retail website
-    When user click on Myaccount
-    And user click on Login option
-    And user enter userName '<userName>' and password '<password>'
-    And user click on Login Button
-    Then user should be logged in to Myaccount dashboard
-    
-    Examples: 
-        |userName|password|
-        |eagles@tekschool.us|eagles|
-        |hawks@tekschool.us|hawks|
-        |falcons@tekschool.us|falcons|
+	Given User is on Retail website 
+	When User click on MyAccount 
+	And User click on Login 
+	And User enter username '<userName>' and password '<password>' 
+	And User click on Login button 
+	Then User should be logged in to MyAccount dashboard 
+	
+	Examples: 
+		|userName|password|
+		|eagles@tekschool.us|eagles|
+		|hawks@tekschool.us|hawks|
+		|falcons@tekschool.us|falcons|

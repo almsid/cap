@@ -19,7 +19,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 	private WebElement macbookItem;
 	@FindBy (xpath = "//button[@id='button-cart']")
 	private WebElement buttonAddToCart;
-	@FindBy (xpath = "//div[@class= 'alert alert-success alert-dismissible' and text()=' Success: You have added ']")
+	@FindBy (xpath = "//div[@class= 'alert alert-success alert-dismissible' and contains(text(),'Success: You have added')]")
 	private WebElement successMessage;
 	@FindBy (xpath = "//span[@id='cart-total' and text()=' 1 item(s) - $602.00']")
 	private WebElement addedToCartMacbook;
@@ -33,7 +33,7 @@ public class LaptopsNoteBooksPageObject extends Base {
 	private WebElement compareMacBook;
 	@FindBy (xpath = "//a[text()='product comparison']")
 	private WebElement productComparisonLink;
-	@FindBy (xpath = "//h1[text()='Product Comparison']")
+	@FindBy (xpath = "//div[@id='product-compare']//*[text()='Product Comparison']")
 	private WebElement prodcutComparisonPageHeading;
 	@FindBy (xpath = "//button[@onclick= \"wishlist.add('46');\"]")
 	private WebElement wishListSonyVaio;
@@ -51,10 +51,11 @@ public class LaptopsNoteBooksPageObject extends Base {
 		buttonAddToCart.click();
 	}
 	public boolean validateSuccessMessage(String itemName) {
-		if (successMessage.findElement(By.linkText(itemName)).isDisplayed())
+		if (successMessage.isDisplayed())
 			return true;
 		else 
 			return false;
+		//if (successMessage.findElement(By.linkText(itemName)).isDisplayed())
 	}
 	public boolean validateMacBookAddedToCart(String str) {
 		if (addedToCartMacbook.getText().contains(str))
